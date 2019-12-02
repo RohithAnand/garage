@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ParkingApplication<parking_application>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "parkingGarageAutomation.parking_application.ParkingApplication",
+            "projectName": "parking_application",
+            "args": ""
+        }
+    ]
+}

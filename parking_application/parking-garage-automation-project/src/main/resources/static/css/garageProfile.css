@@ -1,0 +1,61 @@
+.logo{
+    width: 75px;
+    height:60px;
+}
+.margin{
+    margin-left: 0;
+}
+.cover{
+    width:1400;
+    height:300;
+}
+.profilepic{
+    position: relative;  
+    top: -50px; 
+    width:180px;
+    height: 180px;
+}
+.btn-position{
+    position: relative;
+    top:-45px;
+    margin-left: 50px;
+}
+.profile-panel{
+    position: relative;
+    top:-140px;
+    margin-left: 280px;
+}
+.nav-item{
+    width:40%;
+}
+.menu {
+    list-style-type: none;
+    margin-left: 25;
+    padding: 0;
+    width: 200px;
+    border:1px solid rgb(253, 252, 252);
+    background-color: #faf9f9;
+    border-radius: 5px;
+  }
+  .menu li {
+    position: relative;
+}
+.menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+.menu li a:hover{
+    background-color: #555;
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .center{
+        width:80%;
+        height:auto;
+    }
+    .menu{
+        background-color:rgb(110, 251, 199);
+    }
+  }
